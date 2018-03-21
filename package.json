@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-transition",
+  "version": "1.0.0",
+  "description": "Transition utility plugin for tailwindcss framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdna/tailwindcss-transition.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "plugin",
+    "tailwindcss-plugin"
+  ],
+  "author": "webdna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webdna/tailwindcss-transition/issues"
+  },
+  "homepage": "https://github.com/webdna/tailwindcss-transition#readme",
+  "devDependencies": {
+    "lodash": "^4.17.5"
+  }
+}
