@@ -1,15 +1,15 @@
 const _ = require('lodash');
 const className = 'transition'
 
-module.exports = function({ default, transitions, variants }) {
+module.exports = function({ standard, transitions, variants }) {
   return function({ addUtilities, e }) {
-    const utilities = _.map(transitions, (val, name) => ({
+    let utilities = _.map(transitions, (val, name) => ({
       [`.${className}-${e(name)}`]: {
         transition: val
       }
     }))
 
-    if (default) utilities = _.assignIn(utilities, { [`.${className}-${e(name)}`]: { transition: default } });
+    if (standard) utilities = _.assignIn(utilities, { [`.${className}-${e(name)}`]: { transition: standard } });
 
     addUtilities(utilities, variants)
   }

@@ -50,6 +50,7 @@ require('tailwindcss-transition')({
 ### Extra Thoughts (Not included in current version)
 
 _note: this was just an idea_
+
 It was taken into consideration that the plugin should accept a more complex set
 of options, more akin to the following:
 

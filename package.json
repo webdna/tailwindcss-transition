@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-transition",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transition utility plugin for tailwindcss framework",
   "main": "index.js",
   "scripts": {
