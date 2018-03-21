@@ -9,7 +9,7 @@ module.exports = function({ standard, transitions, variants }) {
       }
     }))
 
-    if (standard) utilities = _.assignIn(utilities, { [`.${className}-${e(name)}`]: { transition: standard } });
+    if (standard) utilities = _.assignIn(utilities, { [`.${className}`]: { transition: standard } });
 
     addUtilities(utilities, variants)
   }
