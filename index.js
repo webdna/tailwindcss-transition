@@ -4,7 +4,7 @@ const className = 'transition'
 module.exports = function({ standard, transitions, variants }) {
   return function({ addUtilities, e }) {
     let utilities = _.map(transitions, (val, name) => ({
-      [`.${className}-${e(name)}`]: {
+      [`.${e(`${className}-${name}`)}`]: {
         transition: val
       }
     }))
