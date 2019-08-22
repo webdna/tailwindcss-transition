@@ -22,7 +22,7 @@
     "url": "https://github.com/webdna/tailwindcss-transition/issues"
   },
   "homepage": "https://github.com/webdna/tailwindcss-transition#readme",
-  "devDependencies": {
+  "dependencies": {
     "lodash": "^4.17.5"
   }
 }
